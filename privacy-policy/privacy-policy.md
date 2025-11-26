@@ -3,48 +3,50 @@ Privacy Policy — Currency Converter (by UzorGame)
 Last updated: November 2025
 
 This Privacy Policy explains how the mobile app Currency Converter handles information.
-
 The app does not require you to create an account, and we do not upload any of your data to our own servers.
-All settings and preferences stay locally on your device.
+All settings and preferences are stored locally on your device.
 
-1) What data we process
+1) What data is processed
 
 We do not directly collect personal data.
+We don’t ask for your name, email, phone number, contacts, precise location, and we don’t run our own analytics servers.
 
-However, the app uses Google AdMob for advertising.
-Google and its partners may process:
+Advertising (Google AdMob)
 
-device and app information (model, OS version)
+For ad delivery, measurement, fraud-prevention and abuse detection, Google and its ad partners may process:
 
-advertising identifiers (e.g., Google Advertising ID)
+device and app information (OS version, model)
+
+advertising identifiers (e.g. Google Advertising ID)
 
 IP address and coarse location
 
 ad interactions (views, clicks, rewards)
 
-Data processing by Google depends on your consent and device settings.
-If you decline personalized ads, Google will show non-personalized ads.
+Ad personalization depends on your consent and device settings.
+If you decline personalized ads, we request non-personalized ads.
+Google may still process limited data to combat fraud and measure delivery.
 
-For more details, see Google’s privacy policies.
+See Google’s policies for details.
 
 2) How the app works
 
-No user accounts
-
-No login
+No accounts
 
 No cloud storage
 
+No gameplay data uploads
+
 No analytics servers
+Everything happens locally on your device.
 
-Everything stays on your device
+3) Children’s privacy
 
-3) Children’s Privacy
-
-The app is not directed at children under 13.
-If you are a parent and believe your child interacted with the app improperly, contact us.
+This app is not directed at children under 13.
+If you believe a child has interacted with the app improperly, please contact us.
 
 4) Contact
 
-If you have any questions, contact us at:
+If you have questions about this Privacy Policy, contact us at:
+
 uzorplay@gmail.com
