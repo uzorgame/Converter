@@ -2,112 +2,102 @@
 
 **Last updated:** November 2025
 
-This Privacy Policy explains how UzorGame (“we”, “our”, “us”) handles information in the mobile app **“Currency Converter”**.  
-We designed the app to work **without creating accounts** and **without uploading your usage data to our servers**. All settings and preferences are stored **locally on your device**.
+This Privacy Policy explains how UzorGame (“we”, “our”, “us”) handles information in the mobile app **“Currency Converter”**.
+
+The app works **without accounts**, **without ads**, **without tracking users across apps**, and **without uploading your data to our servers**.  
+All settings stay **locally on your device**.
 
 ---
 
 ## 1) What data is processed
 
-**We do not directly collect personal data.**  
-We do not ask for your name, email, phone number, contacts, or precise location, and we do not run our own analytics servers.
+### We do not collect personal data
 
-### Advertising (Google AdMob)
+We do **not** ask for your name, email, phone number, contacts, location, or any identifying information.  
+We do **not** upload application usage to our own servers.
 
-For ad delivery, measurement, fraud-prevention and abuse detection, Google and its ad partners may process:
-
-- device and app information (app version, OS, model);  
-- advertising identifiers (e.g., Google Advertising ID);  
-- IP address and coarse location;  
-- ad interactions (impressions, clicks, rewards).
-
-**Ad personalization depends on your consent and device settings.**  
-If you decline personalized ads, we request **non-personalized ads**. Google may still process limited data (e.g., for fraud prevention and basic measurement).
-
-See Google’s policies below.
+The app does not access your photos, contacts, files, or any sensitive permissions.
 
 ---
 
-## 2) Consent in EEA/UK (UMP)
+## 2) Firebase Analytics (non-personal, technical data)
 
-On first launch in the EEA/UK region, the app uses Google’s **User Messaging Platform (UMP)** to request your advertising consent under the IAB TCF framework.  
-Your choice is stored by the Google SDK and used for all ad requests.
+The app uses **Google Firebase Analytics** to understand basic usage (e.g. which screens are viewed, app crashes, number of active users).
 
-You can change your choice at any time in the app:  
-**Settings → Privacy** (opens the UMP privacy options form).
+Firebase may process:
 
----
+- app version and device type  
+- app interactions (e.g., which screens are opened)  
+- crash reports  
+- country (coarse, based on IP), but we do not receive precise location  
 
-## 3) Children’s privacy
-
-Our app targets a general audience and is **not directed to children**.  
-We do not knowingly collect personal information from children.
-
-If you believe a child has provided personal information to us, contact **uzorplay@gmail.com**, and we will take appropriate action.
-
-If the app is ever enrolled in Google Play’s **Families** program, we will comply with all required child-directed rules and AdMob restrictions.
+Firebase **does not** give us access to your identity, IP address, or any personal data.  
+All processing is done according to Google’s privacy policies.
 
 ---
 
-## 4) Data storage & retention
+## 3) Currency API (exchange rates)
 
-- We do **not** maintain user databases.  
-- We do **not** upload your usage history or preferences to our servers.  
-- Ad-related data is processed and retained by **Google** according to their own policies.  
-- You can reset your **Google Advertising ID** in Android settings at any time.
+The app requests up-to-date currency exchange rates from a **third-party API provider**.
 
----
+- API requests do **not** include personal information  
+- API requests do **not** contain user identifiers  
+- The external provider receives only a standard anonymous HTTPS request asking for currency data
 
-## 5) Data sharing / “sale”
-
-- We **do not sell** or trade your data.  
-- Ad data is handled solely by **Google AdMob** and its certified partners to show and measure ads.
-
-For California users: we do not “sell” personal information under the CCPA.  
-To limit ad personalization, adjust the in-app **Privacy** options, Android **Ads** settings, and Google **Ads Personalization** settings.
+We do not control how external providers store or use their own server logs.  
+No user-identifying data is sent.
 
 ---
 
-## 6) Legal bases (GDPR / EEA)
+## 4) Children’s Privacy
 
-Where GDPR applies, processing performed by Google for advertising is based on:
-
-- **your consent** (for personalized ads), or  
-- **legitimate interests** (e.g., fraud-prevention, basic measurement).
-
-We ourselves do not perform any additional processing beyond what is explicitly described here.
+The app is suitable for a general audience and is **not directed at children**.  
+Since we do not collect personal data, we do not knowingly collect information from children.
 
 ---
 
-## 7) Your choices & controls
+## 5) Data storage & retention
 
-- **In-app:** Settings → **Privacy** (UMP privacy options form)  
-- **Device:** Android Settings → Privacy / Ads → reset or limit ad personalization  
-- **Google Ads Settings:** manage your ad personalization globally
-
----
-
-## 8) Security
-
-We do not operate user databases or cloud storage.  
-Advertising delivery and measurement are performed by Google, which uses industry-standard security and protection mechanisms.
-
-Keep your device updated to ensure maximum security.
+- No personal data is collected or stored.  
+- App settings are stored **locally on your device**.  
+- Any technical analytics handled by Firebase follow Google’s retention policies.  
+- You may disable Analytics in your device’s Google settings (Android).
 
 ---
 
-## 9) Changes to this policy
+## 6) Data sharing
+
+We do **not** sell, trade, or share any user data.  
+Technical data may be processed solely by:
+
+- **Google Firebase** (analytics, crash reports)  
+- **Currency API provider** (exchange rate requests)
+
+We do not share data with any other third parties.
+
+---
+
+## 7) Security
+
+We do not operate databases or store user profiles.  
+All communication with the currency API is done via secure HTTPS connection.
+
+To stay protected, keep your device updated.
+
+---
+
+## 8) Changes to this policy
 
 We may update this Privacy Policy from time to time.  
 The latest version is always available at:
 
-**https://uzorgame.github.io/privacy-policy.html**
+**https://uzorgame.github.io/privacy-policy-converter**
 
 ---
 
-## 10) Contact
+## 9) Contact
 
-If you have any questions or requests, contact us: **uzorplay@gmail.com**  
+If you have any questions, contact us at: **uzorplay@gmail.com**  
 Developer: **UzorGame**
 
 ---
@@ -115,7 +105,4 @@ Developer: **UzorGame**
 ### Useful links (Google)
 
 - Google Privacy Policy — https://policies.google.com/privacy  
-- How Google uses data from apps — https://policies.google.com/technologies/partner-sites  
-- Google AdMob Policy — https://support.google.com/admob/answer/6128543  
-- Authorized Ad Technology Providers — https://support.google.com/admanager/answer/9012903  
-- Google Ads Personalization — https://adssettings.google.com/
+- Firebase Privacy & Security — https://firebase.google.com/support/privacy
