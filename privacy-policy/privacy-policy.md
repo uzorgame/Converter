@@ -1,108 +1,48 @@
-# Privacy Policy — Currency Converter (by UzorGame)
+# Privacy Policy — Currency Converter
 
 **Last updated:** November 2025
 
-This Privacy Policy explains how UzorGame (“we”, “our”, “us”) handles information in the mobile app **“Currency Converter”**.
+This Privacy Policy explains how **UzorGame** (“we”, “our”, “us”) handles information in the mobile app **Currency Converter**.
 
-The app works **without accounts**, **without ads**, **without tracking users across apps**, and **without uploading your data to our servers**.  
-All settings stay **locally on your device**.
+The app is a utility tool designed to work **without accounts**, **without ads**, and **without tracking**. We prioritize your privacy and do not build user profiles.
 
----
+## 1. Data Collection & Use
 
-## 1) What data is processed
+We **do not** collect, store, or share your personal data.
+* We do not ask for your name, email, or phone number.
+* We do not track your location.
+* We do not access your device storage, contacts, or photos.
 
-### We do not collect personal data
+## 2. Exchange Rate Data (Ephemeral Processing)
 
-We do **not** ask for your name, email, phone number, contacts, location, or any identifying information.  
-We do **not** upload application usage to our own servers.
+To provide current exchange rates, the app communicates with the **Frankfurter API** (`api.frankfurter.dev`).
+* When you open the app or refresh rates, your device sends a standard HTTPS request to the API provider.
+* This communication is **ephemeral**: technical data (such as IP address) is processed solely to transmit the request and return the exchange rate data to your device.
+* We do not retain, log, or store this data on our servers.
+* The API provider is used strictly for functionality (fetching rates) and not for user identification.
 
-The app does not access your photos, contacts, files, or any sensitive permissions.
+## 3. Data Storage
 
----
+* **Settings:** All application settings (e.g., selected base currency or favorite lists) are stored **exclusively locally on your device**.
+* **No Cloud Storage:** We do not maintain user accounts, profiles, or cloud databases for this app.
+* **Local Data:** This locally stored data is never backed up or transmitted by us.
+* If you uninstall the app, all local settings are removed.
 
-## 2) Firebase Analytics (non-personal, technical data)
+## 4. Children’s Privacy
 
-The app uses **Google Firebase Analytics** to understand basic usage (e.g. which screens are viewed, app crashes, number of active users).
+The app is suitable for general audiences. We do not knowingly collect personal information from children.
 
-Firebase may process:
+## 5. Security
 
-- app version and device type  
-- app interactions (e.g., which screens are opened)  
-- crash reports  
-- country (coarse, based on IP), but we do not receive precise location  
+We protect your data by using **secure HTTPS connections** for all network requests to the currency data provider. This ensures that the data exchanged between your device and the API cannot be intercepted.
 
-Firebase **does not** give us access to your identity, IP address, or any personal data.  
-All processing is done according to Google’s privacy policies.
+## 6. Changes to this Policy
 
----
+We may update this Privacy Policy from time to time if our practices change or legal requirements evolve. **The latest version of this policy will always be available for review at its permanent public link.**
 
-## 3) Currency API (exchange rates)
+## 7. Contact
 
-The app requests up-to-date currency exchange rates from a **third-party API provider**.
+If you have questions about this policy or the app, please contact us:
 
-- API requests do **not** include personal information  
-- API requests do **not** contain user identifiers  
-- The external provider receives only a standard anonymous HTTPS request asking for currency data
-
-We do not control how external providers store or use their own server logs.  
-No user-identifying data is sent.
-
----
-
-## 4) Children’s Privacy
-
-The app is suitable for a general audience and is **not directed at children**.  
-Since we do not collect personal data, we do not knowingly collect information from children.
-
----
-
-## 5) Data storage & retention
-
-- No personal data is collected or stored.  
-- App settings are stored **locally on your device**.  
-- Any technical analytics handled by Firebase follow Google’s retention policies.  
-- You may disable Analytics in your device’s Google settings (Android).
-
----
-
-## 6) Data sharing
-
-We do **not** sell, trade, or share any user data.  
-Technical data may be processed solely by:
-
-- **Google Firebase** (analytics, crash reports)  
-- **Currency API provider** (exchange rate requests)
-
-We do not share data with any other third parties.
-
----
-
-## 7) Security
-
-We do not operate databases or store user profiles.  
-All communication with the currency API is done via secure HTTPS connection.
-
-To stay protected, keep your device updated.
-
----
-
-## 8) Changes to this policy
-
-We may update this Privacy Policy from time to time.  
-The latest version is always available at:
-
-**https://uzorgame.github.io/privacy-policy-converter**
-
----
-
-## 9) Contact
-
-If you have any questions, contact us at: **uzorplay@gmail.com**  
-Developer: **UzorGame**
-
----
-
-### Useful links (Google)
-
-- Google Privacy Policy — https://policies.google.com/privacy  
-- Firebase Privacy & Security — https://firebase.google.com/support/privacy
+* **Email:** uzorplay@gmail.com
+* **Developer:** UzorGame
