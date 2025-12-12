@@ -1,4 +1,4 @@
-# Privacy Policy — Currency Converter
+# Privacy Policy — Currency Converter+
 
 **Last updated:** November 2025
 
