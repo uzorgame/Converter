@@ -1,0 +1,2 @@
+enum ActiveField { top, bottom }
+
